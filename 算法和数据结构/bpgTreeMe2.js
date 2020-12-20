@@ -44,7 +44,7 @@ function bpg(str) {
         res.push(root.val);
       }
     };
-    return traverse(root);
+    traverse(root);
     return res;
   };
 
